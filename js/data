@@ -72,9 +72,9 @@
         {"name":"MySQL","level":"58"}
     ],
     "category":{
-        "about_label":"ABOUT ME1",
-        "work_label":"WORK EXPERIENCE1",
-        "education_label":"EDUCATION1",
-        "skills_label":"SKILLS AND EXPERTIZE1"
+        "about_label":"ABOUT ME",
+        "work_label":"WORK EXPERIENCE",
+        "education_label":"EDUCATION",
+        "skills_label":"SKILLS AND EXPERTIZE"
     }
 }

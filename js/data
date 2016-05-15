@@ -1,0 +1,79 @@
+{
+   "info":[
+        {"label":"Name","value":"Bledar Haxhia","icon_url":"images/user-icon.png"},
+        {"label":"Adress","value":"4501 Rrile Lezhe Albania","icon_url":"images/map-icon.png"},
+        {"label":"Phone","value":"+355385565381","icon_url":"images/phone-icon.png"},
+        {"label":"Email","value":"bledi-1@live.com","icon_url":"images/mail-icon.png"},
+        {"label":"Website","value":"www.bledarhaxhia.com","icon_url":"images/web-icon.png"}
+    ],
+    "social":[
+        {"label":"Facebook","user":"@bledar18","link":"http://www.facebook.com/bledar18","icon_url":"images/fb-icon.png"},
+        {"label":"Twiter","user":"@bledarhaxhia","link":"http://www.twitter.com/bledarhaxhia","icon_url":"images/twitter-icon.png"},
+        {"label":"Linkedin","user":"haxhiabledar","link":"http://www.al.linkedin.com/in/haxhiabledar","icon_url":"images/linkedin-icon.png"},
+        {"label":"Github","user":"bledar","link":"http://www.github.com/bledar","icon_url":"images/github-icon.png"},
+        {"label":"Youtube","user":"Bledimovis","link":"https://www.youtube.com/user/Bledimovis/","icon_url":"images/youtube-icon.png"}
+    ],
+    "title":"Graphic and web designer",
+    "about_me":"I have designed and developed different website,logo, banner, picture,videos and books.I'm very good user of Adobe software such as Photoshop, Illustrator,InDesign, After Effect and Premier Pro. Besides graphic and video designs I am taken with the Web Design where I know very well some of the platforms and frameworks as are Typo3, Wordpress, Joomla, Laravel, jQuery, Bootstrap etc. Also a special interest for me has especially mobile programming in ANDROID platform.",
+    "work":[
+        {
+            "date":"Dec 1 – continuing",
+            "title":"Web Developer",
+            "company":"Internet People GmbH",
+            "desc":"Currently I am working as web developer."
+        },
+        {
+            "date":"Jul 2015 - Jan 2016",
+            "title":"Network Technician",
+            "company":"NetSysCom Sh.p.k",
+            "desc":"I have work as a technician network in an ISP that operates mainly in the areas of Lezha and Shkodra. This work consists in maintaining the existing network as well enhancement and improvement the services of this network."
+        },
+        {
+            "date":"Jul 2015 - Jan 2016",
+            "title":"Web Developer",
+            "company":"astro-al.com",
+            "desc":"Creating a website in Wordpress. This is a blog for astrology information.Some of the knowledge that requires this platform is PHP, MySQL, JavaScript, CSS, HTML."
+        },
+        {
+            "date":"Dec 2014 – Apr 2015",
+            "title":"Designer",
+            "company":"Publisher “Kuvendi”",
+            "desc":"Preparation of the book 'Kanuni I Leke Dukagjin' for reprint. Redesign of the book, and adaptation, based on his original copy. Preparation of the book was done with Adobe InDesign."
+        }
+    ],
+    "education":[
+        {
+            "years":"2012 – 2015",
+            "title":"Bachelor’s degree Informatic.",
+            "school":"University of Shkodra 'Luigj Gurakuqi'",
+            "desc":"This is a branch for general Informatics, which are intertwined hardwere part and the development of software."
+        },
+        {
+            "years":"2008 – 2012",
+            "title":"High School",
+            "school":"Middle School Shenkoll Lezhe",
+            "desc":""
+        }
+    ],
+    "skills":[
+        {"name":"Photoshop","level":"85"},
+        {"name":"Premier Pro","level":"50"},
+        {"name":"After Effect","level":"65"},
+        {"name":"InDesign","level":"70"},
+        {"name":"HTML","level":"85"},
+        {"name":"CSS","level":"83"},
+        {"name":"JavaScript","level":"75"},
+        {"name":"PHP","level":"55"},
+        {"name":"Java","level":"50"},
+        {"name":"Laravel","level":"40"},
+        {"name":"jQuery","level":"80"},
+        {"name":"Bootstrap","level":"85"},
+        {"name":"Visual Basic","level":"55"},
+        {"name":"MySQL","level":"58"}
+    ],
+    "category":{
+        "work":"WORK EXPERIENCE",
+        "education":"EDUCATION",
+        "skills":"SKILLS AND EXPERTIZE"
+    }
+}

@@ -1,0 +1,267 @@
+@import url('reset.css');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #343330;
+}
+.wrapper{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #3B3B3D;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    overflow: hidden;
+    padding: 30px 0 ;
+}
+#sticky-note{
+    position: absolute;
+    top:20%;
+    left: 0px;
+    width: 280px;
+    height: auto;
+}
+#pencil1{
+    position: absolute;
+    top:15%;
+    right: 120px;
+    z-index: 1;
+}
+#pencil2{
+    position: absolute;
+    top:10%;
+    z-index: 1;
+    right: 50px;
+}
+.download-btn{
+    position: relative;
+    z-index: 1;
+    margin:20px auto;
+    text-align: center;
+    display: block;
+    width: 150px;
+    padding: 10px;
+    background-color: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 3px 10px #666;
+}
+.halfBG{
+    position: absolute;
+    background-color: #a1a1a1;
+    width: 100%;
+    height: 100%;
+    bottom: -50%;
+    transform: skewY(-15deg);
+}
+.content{
+    max-width: 630px;
+    margin: auto;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.4);
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+}
+.first-col{
+    position: absolute;
+    width: 33%;
+    background-color: #2d2d2d;
+    /*min-height: 800px;*/
+    height: 100%;
+    z-index: 10;
+    /*float: left;*/
+}
+.first-col .profil-pic{
+    width: 140px;
+    height: auto;
+    border-radius: 50%;
+    border:2px solid #fff;
+    margin: 25px auto;
+    display: block;
+
+}
+.first-col .info-col{
+    max-width: 170px;
+    margin: 0 0px 0 auto;
+}
+.first-col .info-col h2{
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.first-col .info-col ul{
+    margin-top: 20px;
+}
+.first-col .info-col li{
+    margin:15px 0;
+    width: 100%;
+    color: #fff;
+    line-height: 1.2em;
+}
+.first-col .info-col .icon{
+    margin-top: 4px;
+    display: block;
+    width: 15px;
+    float: left;
+}
+.first-col .info-col .label{
+    display: block;
+    width: 100%;
+    margin-left: 25px;
+
+}
+.first-col .info-col a{
+    color: inherit;
+    text-decoration: none;
+}
+.first-col .info-col .value{
+    display: block;
+    font-weight: lighter;
+    color: #a1a1a1;
+    margin-left: 25px;
+    font-size: 14px;
+}
+.second-col{
+    float: left;
+    /*position: absolute;*/
+    width: 67%;
+    margin-left: 33%;
+    z-index: 10;
+}
+.second-col h1{
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+}
+.second-col h2{
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #555;
+    text-transform: uppercase;
+}
+.second-col .title, .second-col .details{
+    max-width: 400px;
+    margin:auto;
+}
+.second-col .details{
+    padding-top: 20px;
+}
+.second-col .details .itemDetail{
+    margin: 30px 0;
+}
+.second-col .details img{
+    float: left;
+
+}
+.second-col .details h2{
+    color: #424242;
+    border-bottom: 2px solid #424242;
+    text-transform: uppercase;
+    font-weight:400;
+    margin: 10px 0;
+    padding: 4px 0 8px 0; 
+    margin-left: 45px;
+    font-size: 1em;
+}
+.second-col .details img{
+    vertical-align: middle;
+    width: 28px;
+    height:auto;
+}
+.second-col .details p{
+    margin-left: 45px;
+    font-size: .8em;
+    font-weight: lighter;
+    line-height: 1.4em;
+}
+.second-col ul{
+    margin: 0 0 0 15px;
+    border-left: 2px solid #7f7f7d;
+    padding:1px 0;
+}
+.second-col ul li{
+    margin: 20px 0;
+    /*font-size: 1em;*/
+}
+.second-col ul li .date{
+    margin: 0 15px 0 20px;
+}
+.second-col ul li .title{
+    font-weight: bold;
+    display: inline-block;
+}
+.second-col ul li .company{
+    font-weight: lighter;
+    font-style: italic;
+    display:block;
+    margin:5px 0 0 30px;
+}
+.second-col ul li .desc{
+    line-height: 1.2em;
+    font-weight: lighter;
+    /*font-style: italic;*/
+    display:block;
+    margin:5px 0 0 30px;
+}
+.second-col ul li:before{
+    background-size: 10px 10px;
+    background-image: url("../images/bullet-icon.png");
+    width: 10px;
+    height:10px;
+    display: inline-block;
+    content: " ";
+    margin-left: -6px;
+    }
+.second-col .itemDetail .skills{
+    margin:0 0 20px 15px;
+    padding: 0 0 0 25px;
+    border-left: 2px solid #7f7f7d;
+    font-size: .8em;
+    line-height: 1.5em;
+    font-weight: lighter;
+    float: left;
+}
+.second-col .itemDetail .skills .itemSkill{
+    display: block;
+    margin-right: 10px;
+    float: left;
+    width: 150px;
+}
+.second-col .itemDetail .skills .itemSkill .skillBar{
+    margin: -1em 0 0 70px;
+    height: 10px;
+    background-color: #cccccd;
+    display: block;
+}
+.second-col .itemDetail .skills .itemSkill .skillBar .skillBarProgress{
+    height: 10px;
+    background-color: #707175;
+    display: block;
+}
+.second-col .itemDetail .skills .itemSkill:nth-child(1) .skillBarProgress{width: 80%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(2) .skillBarProgress{width: 50%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(3) .skillBarProgress{width: 60%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(4) .skillBarProgress{width: 75%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(5) .skillBarProgress{width: 90%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(6) .skillBarProgress{width: 85%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(7) .skillBarProgress{width: 65%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(8) .skillBarProgress{width: 60%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(9) .skillBarProgress{width: 50%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(10) .skillBarProgress{width: 40%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(11) .skillBarProgress{width: 80%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(12) .skillBarProgress{width: 80%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(13) .skillBarProgress{width: 50%;}
+.second-col .itemDetail .skills .itemSkill:nth-child(14) .skillBarProgress{width: 70%;}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+

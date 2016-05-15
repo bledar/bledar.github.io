@@ -5,11 +5,14 @@
     <meta name="theme-color" content=" #3b3b3d">
     <link rel="shortcut icon" href="http://bledarhaxhia.com/public/image/favicon.ico" type="image/x-icon">
     <meta name="description" content="English Resume">
-    <title>| Resume</title>
+    <title>Bledar Haxhia | Resume</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 </head>
 <body>
+<div id="loading">
+    <span><img src="images/loading.gif" alt=""><br/>Loading...</span>
+</div>
     <div class="wrapper">
         <img id="sticky-note" src="images/sticky-note.png" alt="">       
         <img id="pencil1" src="images/pencil-1.png" alt="">       
@@ -19,83 +22,32 @@
                 <img class="profil-pic" src="images/profil-pic.jpg" alt="">
                 <div class="info-col">
                     <h2>Info</h2>
-                    <ul id="info-list" style="display: none;"></ul>
+                    <ul id="info-list"></ul>
                     <h2>Social</h2>
-                    <ul id="social-list" style="display: none;"></ul>
+                    <ul id="social-list"></ul>
                 </div>
             </div>
-
             <div class="second-col">
                 <div class="title">
                     <h1></h1>
                     <h2></h2> 
                 </div>
                 <div class="details">
-                   <div class="itemDetail">
-                        <img src="images/about-me-icon.png" alt=""><h2>About me</h2>
-                        <p>I have designed and developed different website, logo, banner, picture,videos and books. I'm very good user of Adobe software such as Photoshop, Illustrator,InDesign, After Effect and Premier Pro. Besides graphic and video designs I am taken with the Web Design where I know very well some of the platforms and frameworks as are Typo3, Wordpress, Joomla, Laravel, jQuery, Bootstrap etc. Also a special interest for me has especially mobile programming in ANDROID platform.</p>
+                   <div class="itemDetail" id="about_me">
+                        <img src="images/about-me-icon.png" alt=""><h2></h2>
+                        <p></p>
                     </div>
                     <div class="itemDetail">
-                        <img src="images/pencil-icon.png" alt=""><h2>Work Experience</h2>
-                        <ul>
-                            <li>
-                                <span class="date">Dec 1 – continuing</span>
-                                <span class="title">Web Developer</span>
-                                <span class="company">Internet People GmbH</span>
-                                <span class="desc">Currently I am working as web developer.</span>
-                            </li>
-                            <li>
-                                <span class="date">Jul 2015 - Jan 2016</span>
-                                <span class="title">Network Technician</span>
-                                <span class="company">NetSysCom Sh.p.k</span>
-                                <span class="desc">I have work as a technician network in an ISP that operates mainly in the areas of Lezha and Shkodra. This work consists in maintaining the existing network as well enhancement and improvement the services of this network.</span>
-                            </li>
-                            <li>
-                                <span class="date">Jul 2015 - Jan 2016</span>
-                                <span class="title">Website Developer</span>
-                                <span class="company">astro-al.com</span>
-                                <span class="desc">Creating a website in Wordpress. This is a blog for astrology information.Some of the knowledge that requires this platform is PHP, MySQL, JavaScript, CSS, HTML.</span>
-                            </li>
-                            <li>
-                                <span class="date">Dec 2014 – Apr 2015</span>
-                                <span class="title">Designer</span>
-                                <span class="company">Publisher “Kuvendi”</span>
-                                <span class="desc">Preparation of the book "Kanuni I Leke Dukagjin" for reprint. Redesign of the book, and adaptation, based on his original copy. Preparation of the book was done with Adobe InDesign.</span>
-                            </li>
-                        </ul>
+                        <img src="images/pencil-icon.png" alt=""><h2 id="work_label"></h2>
+                        <ul id="work_list"></ul>
                 </div>
                 <div class="itemDetail">
-                    <img src="images/education-icon.png" alt=""><h2>Education</h2>
-                    <ul><li>
-                        <span class="date">2012 – 2015</span>
-                        <span class="title">Bachelor’s degree Informatic.</span>
-                        <span class="company">University of Shkodra "Luigj Gurakuqi"</span>
-                        <span class="desc">This is a branch for general Informatics, which are intertwined hardwere part and the development of software.</span></li>
-                        <li>
-                        <span class="date">2008 – 2012</span>
-                        <span class="title">High School</span>
-                        <span class="company">Middle School Shenkoll Lezhe</span>
-                        <span class="desc"></span></li>
-                    </ul>
+                    <img src="images/education-icon.png" alt=""><h2 id="education_label"></h2>
+                    <ul id="education_list"></ul>
                 </div>
                 <div class="itemDetail">
-                    <img src="images/skills-icon.png" alt=""><h2>Skills and Expertize</h2>
-                    <div class="skills cf">
-                        <div class="itemSkill">Photoshop<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">Premier Pro<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">After Effect<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">InDesign<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">HTML<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">CSS<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">JavaScript<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">PHP<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">Java<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">Laravel<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">jQuery<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">Bootstrap<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">Visual Basic<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                        <div class="itemSkill">MySQL<span class="skillBar"><span class="skillBarProgress"></span></span></div>
-                    </div>
+                    <img src="images/skills-icon.png" alt=""><h2 id="skills_label"></h2>
+                    <div class="skills cf" id="skills_list"></div>
                 </div>
                 </div>           
             </div>

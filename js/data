@@ -19,25 +19,25 @@
         {
             "date":"Dec 1 – continuing",
             "title":"Web Developer",
-            "company":"Internet People GmbH",
+            "commpany":"Internet People GmbH",
             "desc":"Currently I am working as web developer."
         },
         {
             "date":"Jul 2015 - Jan 2016",
             "title":"Network Technician",
-            "company":"NetSysCom Sh.p.k",
+            "commpany":"NetSysCom Sh.p.k",
             "desc":"I have work as a technician network in an ISP that operates mainly in the areas of Lezha and Shkodra. This work consists in maintaining the existing network as well enhancement and improvement the services of this network."
         },
         {
             "date":"Jul 2015 - Jan 2016",
             "title":"Web Developer",
-            "company":"astro-al.com",
+            "commpany":"astro-al.com",
             "desc":"Creating a website in Wordpress. This is a blog for astrology information.Some of the knowledge that requires this platform is PHP, MySQL, JavaScript, CSS, HTML."
         },
         {
             "date":"Dec 2014 – Apr 2015",
             "title":"Designer",
-            "company":"Publisher “Kuvendi”",
+            "commpany":"Publisher “Kuvendi”",
             "desc":"Preparation of the book 'Kanuni I Leke Dukagjin' for reprint. Redesign of the book, and adaptation, based on his original copy. Preparation of the book was done with Adobe InDesign."
         }
     ],
@@ -72,8 +72,9 @@
         {"name":"MySQL","level":"58"}
     ],
     "category":{
-        "work":"WORK EXPERIENCE",
-        "education":"EDUCATION",
-        "skills":"SKILLS AND EXPERTIZE"
+        "about_label":"ABOUT ME1",
+        "work_label":"WORK EXPERIENCE1",
+        "education_label":"EDUCATION1",
+        "skills_label":"SKILLS AND EXPERTIZE1"
     }
 }

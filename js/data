@@ -11,7 +11,7 @@
         {"label":"Twiter","user":"@bledarhaxhia","link":"http://www.twitter.com/bledarhaxhia","icon_url":"images/twitter-icon.png"},
         {"label":"Linkedin","user":"haxhiabledar","link":"http://www.al.linkedin.com/in/haxhiabledar","icon_url":"images/linkedin-icon.png"},
         {"label":"Github","user":"bledar","link":"http://www.github.com/bledar","icon_url":"images/github-icon.png"},
-        {"label":"Behance","user":"bledar","link":"https://www.behance.net/bledar","icon_url":"images/behance-icon.png"}
+        {"label":"Behance","user":"bledar","link":"https://www.behance.net/bledar","icon_url":"images/behance-icon.png"},
         {"label":"Youtube","user":"Bledimovis","link":"https://www.youtube.com/user/Bledimovis/","icon_url":"images/youtube-icon.png"}
     ],
     "title":"Graphic and web designer",

@@ -262,3 +262,21 @@ body{
     position: absolute;
     margin: 30% 0 0 50%;
 }
+@media print {
+    .wrapper{
+        padding: 0px;
+    }
+    .download-btn{
+        display: none;
+    }
+    .bg-image{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        max-width: 100%;
+    }
+    .first-col{
+        background-color: #2d2d2d;
+    }
+}

@@ -12,7 +12,7 @@
         {"label":"Linkedin","user":"haxhiabledar","link":"http://www.al.linkedin.com/in/haxhiabledar","icon_url":"images/linkedin-icon.png"},
         {"label":"Github","user":"bledar","link":"http://www.github.com/bledar","icon_url":"images/github-icon.png"},
         {"label":"Behance","user":"bledar","link":"https://www.behance.net/bledar","icon_url":"images/behance-icon.png"},
-        {"label":"Youtube","user":"Bledimovis","link":"https://www.youtube.com/user/Bledimovis/","icon_url":"images/youtube-icon.png"}
+        {"label":"Youtube","user":"bledimovis","link":"https://www.youtube.com/user/Bledimovis/","icon_url":"images/youtube-icon.png"}
     ],
     "title":"Graphic and web designer",
     "about_me":"As a very passionate web developer, I put my hands in typing codes of and designing different assets since the age of 16. Today, I have my own job and proud of it at <a href='http://internetpeople.at'>InternetPeople GmbH</a> where I develop different purpose websites powered by Typo3 and Wordpress. And I do start it from scratch, mostly working alone or in teams. Yet, designing tools remain my best friends: Photoshop, Illustrator, InDesign, After Effects and Premier Pro - we spend most of the time together and we know each-other close.",
@@ -32,7 +32,7 @@
         {
             "date":"Jul 2015 - Jan 2016",
             "title":"Web Developer",
-            "commpany":"astro-al.com",
+            "commpany":"astron.al",
             "desc":"Creating a website in Wordpress. This is a blog for astrology information.Some of the knowledge that requires this platform is PHP, MySQL, JavaScript, CSS, HTML."
         },
         {
@@ -45,7 +45,7 @@
     "education":[
         {
             "years":"2012 – 2015",
-            "title":"Bachelor’s degree Informatic.",
+            "title":"Bachelor degree in Computer Science.",
             "school":"University of Shkodra 'Luigj Gurakuqi'",
             "desc":"This is a branch for general Informatics, which are intertwined hardwere part and the development of software."
         },

@@ -11,10 +11,10 @@ $(function () {
         var skills='';  
 
         for (var i=0; i<obj.info.length;i++ ) { 
-          info +='<li><img class="icon" src="'+obj.info[i].icon_url+'" alt=""><span class="label">'+obj.info[i].label+'</span><span class="value">'+obj.info[i].value+'</span></li>';
+          info +='<li class="'+obj.info[i].label+'"><span class="label">'+obj.info[i].label+'</span><span class="value">'+obj.info[i].value+'</span></li>';
         }
         for (var i=0; i<obj.social.length;i++) {
-          social+='<li><img class="icon" src="'+obj.social[i].icon_url+'" alt=""><span class="label">'+obj.social[i].label+'</span><span class="value"><a href="'+obj.social[i].link+'">'+obj.social[i].user+'</a></span>'
+          social+='<li class="'+obj.social[i].label+'"><span class="label">'+obj.social[i].label+'</span><span class="value"><a href="'+obj.social[i].link+'">'+obj.social[i].user+'</a></span>'
         }
         for (var i=0; i<obj.work.length;i++) {
             work+='<li><span class="date">'+obj.work[i].date+'</span><span class="title">'+obj.work[i].title+'</span><span class="company">'+obj.work[i].commpany+'</span><span class="desc">'+obj.work[i].desc+'</span></li>';

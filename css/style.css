@@ -99,12 +99,6 @@ body{
     color: #fff;
     line-height: 1.2em;
 }
-.first-col .info-col .icon{
-    margin-top: 4px;
-    display: block;
-    width: 15px;
-    float: left;
-}
 .first-col .info-col .label{
     display: block;
     width: 100%;
@@ -122,6 +116,46 @@ body{
     margin-left: 25px;
     font-size: 14px;
 }
+#info-list .Name{
+    background:url(../images/user-icon.png) left 3px no-repeat ;
+    background-size: 16px;
+}
+#info-list .Adress{
+    background:url(../images/map-icon.png) left 3px no-repeat ;
+    background-size: 16px;
+}
+#info-list .Phone{
+    background:url(../images/phone-icon.png) left 3px no-repeat ;
+    background-size: 16px;
+}
+#info-list .Email{
+    background:url(../images/mail-icon.png) left 3px no-repeat ;
+    background-size: 16px;
+}
+#info-list .Website{
+    background:url(../images/web-icon.png) left 3px no-repeat ;
+    background-size: 16px;
+}
+#social-list .Facebook{
+    background:url(../images/fb-icon.png) left 3px no-repeat ;
+    background-size: 16px;
+}
+#social-list .Twiter{
+    background:url(../images/twitter-icon.png) left 3px no-repeat ;
+    background-size: 16px;
+}
+#social-list .Linkedin{
+    background:url(../images/linkedin-icon.png) left 3px no-repeat ;
+    background-size: 16px;
+}
+#social-list .Github{
+    background:url(../images/github-icon.png) left 3px no-repeat ;
+    background-size: 16px;
+}
+#social-list .Behance{
+    background:url(../images/behance-icon.png) left 3px no-repeat ;
+    background-size: 16px;
+}
 .second-col{
     float: left;
     /*position: absolute;*/
@@ -133,7 +167,6 @@ body{
     font-weight: bold;
     font-size: 3em;
     text-transform: uppercase;
-    text-align: center;
     margin-top: 60px;
 }
 .second-col h2{
@@ -173,7 +206,7 @@ body{
 }
 .second-col .details p{
     margin-left: 45px;
-    font-size: .8em;
+    font-size: 1em;
     font-weight: lighter;
     line-height: 1.4em;
 }
@@ -262,9 +295,17 @@ body{
     position: absolute;
     margin: 30% 0 0 50%;
 }
+
 @media print {
+    .second-col .details .itemDetail{
+        margin: 10px 0px;
+    }
     .wrapper{
         padding: 0px;
+        width: 100%;
+        max-width: 2000px;
+        box-shadow: none;
+        margin: 0px;
     }
     .download-btn{
         display: none;
@@ -277,6 +318,15 @@ body{
         max-width: 100%;
     }
     .first-col{
-        background-color: #2d2d2d;
+        background-color: #aaaa;
+        border-right: 1px solid #2D2D2D;
     }
+    .first-col .info-col{
+        margin: 0px 5px 0 auto;
+    }
+    #social-list .Behance{
+    background:url(../images/fb-icon.png) left 3px no-repeat ;
+    background-size: 16px;
+}
+
 }

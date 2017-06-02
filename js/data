@@ -14,18 +14,18 @@
         {"label":"Behance","user":"behance.net/bledar","link":"https://www.behance.net/bledar","icon_url":"images/behance-icon.png"}
     ],
     "title":"Full stack web developer",
-    "about_me":"As a very passionate web developer, I put my hands in typing codes of and designing different assets since the age of 16. Today, I have my own job and proud of it at <a href='http://internetpeople.at'>InternetPeople GmbH</a> where I develop different purpose websites powered by Typo3 and Wordpress. And I do start it from scratch, mostly working alone or in teams. Yet, designing tools remain my best friends: Photoshop, Illustrator, InDesign, After Effects and Premier Pro - we spend most of the time together and we know each-other close.",
+    "about_me":"As a very passionate web developer, I put my hands in typing codes of and designing different assets since the age of 16. Today, I work as freelancer where I develop different purpose websites powered by Typo3 and Wordpress. And I do start it from scratch, mostly working alone or in teams. Yet, designing tools remain my best friends: Photoshop, Illustrator, InDesign, After Effects and Premier Pro - we spend most of the time together and we know each-other close.",
     "work":[
         {
             "date":"Dec 2016 – Jul 2017",
             "title":"Web Developer",
-            "commpany":"Internet People GmbH",
-            "desc":"Currently I am working as web developer."
+            "commpany":"<a href='https://internetpeople.at/' target='_blank'>Internet People GmbH</a>",
+            "desc":"I have work as web developer at InternetPeople GmbH where I have develop different purpose websites powered by Typo3 and Wordpress."
         },
         {
             "date":"Jul 2015 - Jan 2016",
             "title":"Network Technician",
-            "commpany":"NetSysCom Sh.p.k",
+            "commpany":"<a href='http://netsyscom.al/ target='_blank'>NetSysCom Sh.p.k</a>",
             "desc":"I have work as a technician network in an ISP that operates mainly in the areas of Lezha and Shkodra."
         }
     ],

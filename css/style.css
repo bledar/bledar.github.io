@@ -217,7 +217,6 @@ body{
 }
 .second-col ul li{
     margin: 20px 0;
-    /*font-size: 1em;*/
 }
 .second-col ul li .date{
     margin: 0 15px 0 20px;
@@ -231,6 +230,9 @@ body{
     font-style: italic;
     display:block;
     margin:5px 0 0 30px;
+}
+.second-col ul li .company a{
+    color: inherit;
 }
 .second-col ul li .desc{
     line-height: 1.2em;

@@ -2,13 +2,11 @@
    "info":[
         {"label":"Name","value":"Bledar Haxhia","icon_url":"images/user-icon.png"},
         {"label":"Adress","value":"4501 Rrile Lezhe Albania","icon_url":"images/map-icon.png"},
-        {"label":"Phone","value":"+355385565381","icon_url":"images/phone-icon.png"},
+        {"label":"Phone","value":"+355685565381","icon_url":"images/phone-icon.png"},
         {"label":"Email","value":"bledi-1@live.com","icon_url":"images/mail-icon.png"},
         {"label":"Website","value":"www.bledarhaxhia.com","icon_url":"images/web-icon.png"}
     ],
-    "social":[
-        {"label":"Facebook","user":"@bledarhaxhia1","link":"http://www.facebook.com/bledarhaxhia1","icon_url":"images/fb-icon.png"},
-        {"label":"Twiter","user":"@bledarhaxhia","link":"http://www.twitter.com/bledarhaxhia","icon_url":"images/twitter-icon.png"},
+    "links":[
         {"label":"Linkedin","user":"haxhiabledar","link":"http://www.al.linkedin.com/in/haxhiabledar","icon_url":"images/linkedin-icon.png"},
         {"label":"Github","user":"github.com/bledar","link":"http://www.github.com/bledar","icon_url":"images/github-icon.png"},
         {"label":"Behance","user":"behance.net/bledar","link":"https://www.behance.net/bledar","icon_url":"images/behance-icon.png"}
@@ -17,10 +15,10 @@
     "about_me":"As a very passionate web developer, I put my hands in typing codes of and designing different assets since the age of 16. Today, I work as freelancer where I develop different purpose websites powered by Typo3 and Wordpress. And I do start it from scratch, mostly working alone or in teams. Yet, designing tools remain my best friends: Photoshop, Illustrator, InDesign, After Effects and Premier Pro - we spend most of the time together and we know each-other close.",
     "work":[
         {
-            "date":"Dec 2016 – Jul 2017",
+            "date":"Dec 2015 – Jun 2017",
             "title":"Web Developer",
             "commpany":"<a href='https://internetpeople.at/' target='_blank'>Internet People GmbH</a>",
-            "desc":"I have work as web developer at InternetPeople GmbH where I have develop different purpose websites powered by Typo3 and Wordpress."
+            "desc":"I have worked as web developer at InternetPeople GmbH where I have developed different purpose websites powered by Typo3 and Wordpress."
         },
         {
             "date":"Jul 2015 - Jan 2016",

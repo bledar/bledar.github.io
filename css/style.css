@@ -5,7 +5,7 @@ body{
     background-color: #343330;
 }
 .wrapper{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     background-color: #3B3B3D;
     position: relative;
@@ -54,7 +54,7 @@ body{
     transform: skewY(-15deg);
 }
 .content{
-    max-width: 630px;
+    max-width: 840px;
     margin: auto;
     box-shadow: 0px 0px 20px rgba(0,0,0,.4);
     position: relative;
@@ -80,7 +80,7 @@ body{
 
 }
 .first-col .info-col{
-    max-width: 170px;
+    max-width: 200px;
     margin: 0 0px 0 auto;
 }
 .first-col .info-col h2{
@@ -100,10 +100,12 @@ body{
     line-height: 1.2em;
 }
 .first-col .info-col .label{
-    display: block;
-    width: 100%;
-    margin-left: 25px;
-
+    display: inline-block;
+    /*width: 100%;*/
+    margin-left: 10px;
+}
+.first-col .info-col i{
+    display: inline-block;
 }
 .first-col .info-col a{
     color: inherit;
@@ -116,7 +118,7 @@ body{
     margin-left: 25px;
     font-size: 14px;
 }
-#info-list .Name{
+/*#info-list .Name{
     background:url(../images/user-icon.png) left 3px no-repeat ;
     background-size: 16px;
 }
@@ -155,7 +157,7 @@ body{
 #social-list .Behance{
     background:url(../images/behance-icon.png) left 3px no-repeat ;
     background-size: 16px;
-}
+}*/
 .second-col{
     float: left;
     /*position: absolute;*/
@@ -176,7 +178,8 @@ body{
     text-transform: uppercase;
 }
 .second-col .title, .second-col .details{
-    max-width: 400px;
+    max-width: 520px;
+    padding-right: 20px;
     margin:auto;
 }
 .second-col .details{
@@ -252,18 +255,23 @@ body{
     }
 .second-col .itemDetail .skills{
     margin:0 0 20px 15px;
-    padding: 0 0 0 25px;
+    padding: 25px 0 25px 25px;
     border-left: 2px solid #7f7f7d;
-    font-size: .8em;
     line-height: 1.5em;
     font-weight: lighter;
-    float: left;
 }
 .second-col .itemDetail .skills .itemSkill{
     display: block;
-    margin-right: 10px;
+    padding: 3px;
     float: left;
-    width: 150px;
+}
+.second-col .itemDetail .skills .itemSkill .skillName{
+    display: inline-block;
+    background-color: #eee;
+    border: 1px solid  #3C75B1;
+    padding: 0px 5px;
+    border-radius: 2px;
+    color: #333;
 }
 .second-col .itemDetail .skills .itemSkill .skillBar{
     margin: -1em 0 0 70px;
@@ -302,6 +310,22 @@ body{
     .second-col .details .itemDetail{
         margin: 10px 0px;
     }
+    .first-col .info-col i{
+        color: #333;
+    }
+    .first-col .info-col .label{
+        color: #333;
+    }
+    .first-col .info-col .value{
+        color: #000;
+    }
+    .first-col .info-col h2{
+        color: #666;
+        border-bottom: 1px solid #666;
+    }
+    .first-col .profil-pic{
+        border-color: #333;
+    }
     .wrapper{
         padding: 0px;
         width: 100%;
@@ -321,14 +345,8 @@ body{
     }
     .first-col{
         background-color: #aaaa;
-        border-right: 1px solid #2D2D2D;
     }
     .first-col .info-col{
         margin: 0px 5px 0 auto;
     }
-    #social-list .Behance{
-    background:url(../images/fb-icon.png) left 3px no-repeat ;
-    background-size: 16px;
-}
-
 }

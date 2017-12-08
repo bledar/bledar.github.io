@@ -308,8 +308,11 @@ body{
 
 @media print {
     .second-col .details .itemDetail{
-        margin: 10px 0px;
+        padding: 0 0 15px;
     }
+    /*.second-col .details .itemDetail{
+        margin: 10px 0px;
+    }*/
     .first-col .info-col i{
         color: #333;
     }
@@ -348,5 +351,8 @@ body{
     }
     .first-col .info-col{
         margin: 0px 5px 0 auto;
+    }
+    .skills_section{
+        margin-top: 200px;
     }
 }

@@ -12,25 +12,25 @@
         {"label":"Behance","user":"behance.net/bledar","link":"https://www.behance.net/bledar","icon":"fa fa-behance"}
     ],
     "title":"Full stack web developer",
-    "about_me":"As a very passionate web developer, I put my hands in typing codes of and designing different assets since the age of 16. Today, I have my own job and proud of it at ATIS Shpk where I develop different purpose web applications. And I do start it from scratch, mostly working alone or in teams. Yet, designing tools remain my best friends: Photoshop, Illustrator, InDesign and After Effects - we spend most of the time together and we know each-other close.",
+    "about_me":"As a very passionate web developer, I put my hands in typing codes of and designing different assets since the age of 16. Today, I have my own job and proud of it at ATIS Shpk where I develop different purpose web applications. And I do start it from scratch, mostly working alone or in teams. Yet, designing tools remain my best friends: Photoshop, Illustrator, InDesign and After Effects - we spend most of the time together and we know each-other closely.",
     "work":[
         {
             "date":"Jun 2017 - current",
             "title":"Web Developer",
             "commpany":"<a href='https://atis.al/' target='_blank'>ATIS Shpk</a>",
-            "desc":"I am currently working as frontend developer. My job here is to build responsive web applications primarily with Twitter Bootstrap using jQuery or ReactJS."
+            "desc":"Currently, I am working as a frontend developer. My job here is to build responsive web applications primarily with Twitter Bootstrap using jQuery or ReactJS."
         },
         {
             "date":"Dec 2015 – Jun 2017",
             "title":"Web Developer",
             "commpany":"<a href='https://internetpeople.at/' target='_blank'>Internet People GmbH</a>",
-            "desc":"I have worked as a web developer at InternetPeople GmbH where I have developed a different purpose websites mostly powered by Typo3 and Wordpress."
+            "desc":"I have worked as a web developer at InternetPeople GmbH where I have developed different purpose websites mostly powered by Typo3 and Wordpress."
         },
         {
             "date":"Jul 2015 - Jan 2016",
             "title":"Network Technician",
             "commpany":"<a href='http://netsyscom.al/' target='_blank'>NetSysCom Sh.p.k</a>",
-            "desc":"I have worked as network administrator in an ISP that operates mainly in the areas of Lezha and Shkodra."
+            "desc":"I have worked as a network administrator in an ISP that operates mainly in the areas of Lezha and Shkodra."
         }
     ],
     "education":[

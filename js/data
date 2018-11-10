@@ -12,28 +12,34 @@
         {"label":"Behance","user":"behance.net/bledar","link":"https://www.behance.net/bledar","icon":"fa fa-behance"}
     ],
     "title":"Full stack web developer",
-    "about_me":"As a very passionate web developer, I put my hands in typing codes of and designing different assets since the age of 16. Today, I have my own job and proud of it at ATIS Shpk where I develop different purpose web applications. And I do start it from scratch, mostly working alone or in teams. Yet, designing tools remain my best friends: Photoshop, Illustrator, InDesign and After Effects - we spend most of the time together and we know each-other closely.",
+    "about_me":"As a very passionate web developer, I put my hands in typing codes of and designing different assets since the age of 16. Today, I have my own job and proud of it at ATIS Shpk where I develop different purpose web applications. And I do start it from scratch, mostly working alone or in teams. I spent most of my time working with JavaScript, CSS3, HTML5, but not rarely I have to work as a backend developer using a framework like Laravel or various CMS such as WordPress and Typo3",
     "work":[
         {
             "date":"Jun 2017 - current",
             "title":"Web Developer",
             "commpany":"<a href='https://atis.al/' target='_blank'>ATIS Shpk</a>",
-            "desc":"Currently, I am working as a frontend developer. My job here is to build responsive web applications primarily with Twitter Bootstrap using jQuery or ReactJS."
+            "desc":"Currently, I am working as frontend developer. My job here is to build responsive web applications using ReactJS and Bootstrap. Leading all frontend projects is also part of my work here at ATIS."
         },
         {
             "date":"Dec 2015 – Jun 2017",
             "title":"Web Developer",
             "commpany":"<a href='https://internetpeople.at/' target='_blank'>Internet People GmbH</a>",
-            "desc":"I have worked as a web developer at InternetPeople GmbH where I have developed different purpose websites mostly powered by Typo3 and Wordpress."
+            "desc":"I have started my carer as a professional web developer at InternetPeople GmbH where I have developed different purpose websites mostly powered by Typo3 and Wordpress."
         },
         {
-            "date":"Jul 2015 - Jan 2016",
+            "date":"Jul 2015 - Dec 2015",
             "title":"Network Technician",
             "commpany":"<a href='http://netsyscom.al/' target='_blank'>NetSysCom Sh.p.k</a>",
             "desc":"I have worked as a network administrator in an ISP that operates mainly in the areas of Lezha and Shkodra."
         }
     ],
     "education":[
+        {
+            "years":"2018 - continuing",
+            "title":"Master of Science (MSc), Informatics",
+            "school":"Fakulteti i Shkencave të Natyrës",
+            "desc":"Currently, I am studying for Informatics at the University of Tirana."
+        },
         {
             "years":"2012 – 2015",
             "title":"Bachelor degree.",
@@ -50,17 +56,17 @@
     "skills":[
         {"name":"HTML"},
         {"name":"CSS"},
-        {"name":"SASS"},
-        {"name":"Bootstap"},
-        {"name":"jQuery"},
+        {"name":"JavaScript"},
         {"name":"ReacJS"},
-        {"name":"LAMP stack"},
+        {"name":"jQuery"},
+        {"name":"Bootstap"},
         {"name":"PHP"},
+        {"name":"MySQL"},
         {"name":"Laravel"},
         {"name":"Typo3"},
         {"name":"Wordpress"},
         {"name":"Adobe Photoshop"},
-        {"name":"MySQL"}
+        {"name":"Git"}
     ],
     "category":{
         "about_label":"ABOUT ME",

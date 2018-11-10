@@ -307,15 +307,15 @@ body{
 }
 
 @media print {
-    /* .second-col .details .itemDetail{
+    .second-col .details .itemDetail{
         padding: 0 0 15px;
-    } */
-    /*.second-col .details .itemDetail{
-        margin: 10px 0px;
-    }*/
-    /* .first-col .info-col i{
-        color: #333;
     }
+    .second-col .details .itemDetail{
+        margin: 10px 0px;
+    }
+    .first-col .info-col i{
+        color: #333;
+    } 
     .first-col .info-col .label{
         color: #333;
     }
@@ -354,5 +354,5 @@ body{
     }
     .skills_section{
         margin-top: 200px;
-    } */
+    }
 }

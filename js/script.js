@@ -1,7 +1,7 @@
 $(function () {
    $.ajax({
     type:"GET",
-    url:"js/data",
+    url:"js/data?id=11",
     success:function(data) {
         var obj = JSON.parse(data);
         var info='';

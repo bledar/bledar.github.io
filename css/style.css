@@ -210,7 +210,7 @@ body{
 .second-col .details p{
     margin-left: 45px;
     font-size: 1em;
-    font-weight: lighter;
+    /* font-weight: lighter; */
     line-height: 1.4em;
 }
 .second-col ul{
@@ -239,7 +239,7 @@ body{
 }
 .second-col ul li .desc{
     line-height: 1.2em;
-    font-weight: lighter;
+    /* font-weight: lighter; */
     /*font-style: italic;*/
     display:block;
     margin:5px 0 0 30px;
@@ -307,7 +307,42 @@ body{
 }
 
 @media print {
-    .second-col .details .itemDetail{
+    .bg-image{
+        display: none;
+    }
+    .content{
+        max-width: 900px;
+        box-shadow:0;
+        box-shadow:none;
+        width:100%;
+        height:100%;
+        page-break-after:always
+    }
+    .wrapper{
+        padding: 0px;
+        box-shadow:none;
+        height: auto;
+        background-color: #fff;
+        width:100%;
+        height:100%;
+        page-break-after:always
+    }
+    .second-col .title{
+        padding-left: 10px;
+    }
+    .itemDetail{
+        padding-left: 10px;
+        break-inside: avoid;
+    }
+    .education_section{
+        padding-top: 25px;
+    }
+    body{
+        box-shadow:none;
+        height: auto;
+        background-color: #fff;
+    }
+    /* .second-col .details .itemDetail{
         padding: 0 0 15px;
     }
     .second-col .details .itemDetail{
@@ -354,5 +389,5 @@ body{
     }
     .skills_section{
         margin-top: 200px;
-    }
+    } */
 }

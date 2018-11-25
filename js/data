@@ -3,7 +3,8 @@
         {"label":"Name","value":"Bledar Haxhia","icon":"fa fa-user"},
         {"label":"Adress","value":"Tirane Albania","icon":"fa fa-map-marker"},
         {"label":"Phone","value":"+355685565381","icon":"fa fa-phone"},
-        {"label":"Email","value":"bledi-1@live.com","icon":"fa fa-envelope-o"}
+        {"label":"Email","value":"bledi-1@live.com","icon":"fa fa-envelope-o"},
+        {"label":"Age","value":"26","icon":"fa fa-user"}
     ],
     "links":[
         {"label":"Linkedin","user":"haxhiabledar","link":"http://www.al.linkedin.com/in/haxhiabledar","icon":"fa fa-linkedin"},

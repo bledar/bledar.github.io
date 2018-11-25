@@ -11,13 +11,13 @@
         {"label":"Behance","user":"behance.net/bledar","link":"https://www.behance.net/bledar","icon":"fa fa-behance"}
     ],
     "title":"Full stack web developer",
-    "about_me": "As a very passionate web developer, I have started typing codes and designing different websites since the age of 16. Today, I have my own job at ATIS Shpk where I develop different purpose web applications. I do start it from scratch, mostly working alone or in teams. I spent most of my time working with JavaScript, CSS3, HTML5. I often have to work as a backend developer using framework like Laravel, or various CMS such as WordPress and Typo3",
+    "about_me": "As a very passionate web developer, I have started typing codes and designing different websites since the age of 16. Today, I have my own job at ATIS Shpk where I develop different purpose web applications. I do start it from scratch, mostly working alone or in teams. I spent most of my time working with JavaScript, CSS3, HTML5. I often have to work as a backend developer using framework like Laravel, or various CMS such as WordPress and Typo3.",
     "work":[
         {
             "date":"Jun 2017 - current",
             "title":"Web Developer",
             "commpany":"<a href='https://atis.al/' target='_blank'>ATIS Shpk</a>",
-            "desc": "Actually I am working as a frontend developer. My job consists on developing responsible web applications using ReactJS and Bootstrap. Leading all frontend projects is also part of my work here at ATIS."
+            "desc": "Actually I am working as a frontend developer. My job consists on developing responsive web applications using different frontend frameworks/library's like React, Vue, jQuery. Leading all the frontend project is part of my work here at ATIS."
         },
         {
             "date":"Dec 2015 – Jun 2017",
@@ -50,17 +50,18 @@
         {"name":"HTML"},
         {"name":"CSS"},
         {"name":"JavaScript"},
-        {"name":"ReacJS"},
+        {"name":"Reac"},
         {"name":"jQuery"},
-        {"name":"VueJS"},
+        {"name":"Vue"},
         {"name":"Bootstap"},
         {"name":"PHP"},
         {"name":"MySQL"},
         {"name":"Laravel"},
         {"name":"Typo3"},
-        {"name":"Wordpress"},
+        {"name":"WordPress"},
         {"name":"Adobe Photoshop"},
-        {"name":"Git"}
+        {"name":"Git"},
+        {"name":"LAMP Stack"}
     ],
     "category":{
         "about_label":"ABOUT ME",

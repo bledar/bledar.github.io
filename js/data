@@ -11,19 +11,19 @@
         {"label":"Behance","user":"behance.net/bledar","link":"https://www.behance.net/bledar","icon":"fa fa-behance"}
     ],
     "title":"Full stack web developer",
-    "about_me": "As a very passionate web developer, I have started typing codes and designing different websites since the age of 16. Today, I have my own job at ATIS Shpk where I develop different purpose web applications. I do start it from scratch, mostly working alone or in teams. I spent most of my time working with JavaScript, CSS3, HTML5. I often have to work as a backend developer using framework like Laravel, or various CMS such as WordPress and Typo3.",
+    "about_me": "As a very passionate web developer, I have started typing codes and designing different websites since the age of 16. Today, I have my own job at ATIS Shpk where I develop different purpose web applications. I spent most of my time working with JavaScript, CSS3, HTML5. I often have to work as a backend developer using framework like Laravel, or various CMS such as WordPress and Typo3.",
     "work":[
         {
             "date":"Jun 2017 - current",
             "title":"Web Developer",
             "commpany":"<a href='https://atis.al/' target='_blank'>ATIS Shpk</a>",
-            "desc": "Actually I am working as a frontend developer. My job consists on developing responsive web applications using different frontend frameworks/library's like React, Vue, jQuery. Leading all the frontend project is part of my work here at ATIS."
+            "desc": "Actually I am working as a frontend developer. My job consists on developing responsive web applications using different frontend frameworks/libraries like React, Vue, jQuery. Leading all the frontend project is part of my work here at ATIS."
         },
         {
             "date":"Dec 2015 – Jun 2017",
             "title":"Web Developer",
             "commpany":"<a href='https://internetpeople.at/' target='_blank'>Internet People GmbH</a>",
-            "desc":"I have started my carer as a web developer at InternetPeople GmbH. I have developed different purpose websites mostly powered by Typo3 and Wordpress."
+            "desc":"I have started my career as a web developer at InternetPeople GmbH. I have developed different purpose websites mostly powered by Typo3 and Wordpress."
         },
         {
             "date":"Jul 2015 - Dec 2015",
